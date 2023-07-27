@@ -6,7 +6,7 @@ function volume_sphere() {
       const volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
 
       // Update the volume input field with the result
-      document.getElementById('volume').value = volume.toFixed(2);
+      document.getElementById('volume').value = volume;
 
       // Prevent form submission (since we handle the calculation here)
       return false;
